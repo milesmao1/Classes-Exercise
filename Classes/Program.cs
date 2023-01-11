@@ -1,4 +1,6 @@
-﻿namespace Classes
+﻿using System.Security.Cryptography.X509Certificates;
+
+namespace CarLotSimulator
 {
     public class Car
     {
@@ -6,7 +8,7 @@
         public Car() 
         { 
         }
-        
+       
         
         // Properties
         public string Make { get; set; }
